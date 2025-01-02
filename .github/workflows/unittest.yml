@@ -1,0 +1,37 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13.1'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest flake8 pytest-cov
+
+      - name: Run flake8 (Code Style Check)
+        run: flake8 .
+
+      - name: List test files
+        run: ls tests/
+
+      - name: Check test discovery
+        run: pytest --collect-only tests/
+
+      - name: Run tests with coverage
+        run: pytest --cov=your_module_name tests/
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-report
+          path: htmlcov/
