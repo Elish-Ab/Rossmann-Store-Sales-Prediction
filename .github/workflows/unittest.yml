@@ -26,6 +26,12 @@ jobs:
 
       - name: Check test discovery
         run: pytest --collect-only tests/
+  
+      - name: Debug files
+        run: ls -R
+        
+      - name: Run pytest collect
+        run: pytest --collect-only -v tests/
 
       - name: Run tests with coverage
         run: pytest --cov=your_module_name tests/
