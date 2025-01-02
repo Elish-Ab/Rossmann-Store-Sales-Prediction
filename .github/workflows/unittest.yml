@@ -26,6 +26,9 @@ jobs:
 
       - name: List test files
         run: ls tests/
+        
+      - name: Debug test files syntax
+        run: python -m py_compile tests/*.py
 
       - name: Check test discovery
         run: pytest --collect-only tests/
