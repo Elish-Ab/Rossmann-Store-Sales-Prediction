@@ -1,0 +1,8 @@
+2025-01-03 21:57:18,833 - INFO - Data loaded successfully.
+2025-01-03 21:57:19,077 - INFO - Train and test data merged with store data.
+2025-01-03 21:57:19,173 - INFO - Missing values filled.
+2025-01-03 21:59:50,264 - INFO - Data loaded successfully.
+2025-01-03 21:59:50,464 - INFO - Train and test data merged with store data.
+2025-01-03 21:59:50,585 - INFO - Missing values filled.
+2025-01-03 21:59:50,921 - INFO - Feature engineering completed.
+2025-01-03 22:00:00,814 - INFO - Cleaned data saved successfully.
