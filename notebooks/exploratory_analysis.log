@@ -1,0 +1,12 @@
+2025-01-03 22:08:36,188 - ERROR - Error loading cleaned data: [Errno 2] No such file or directory: 'train_cleaned.csv'
+2025-01-03 22:09:36,707 - INFO - Cleaned data loaded successfully.
+2025-01-03 22:09:48,165 - INFO - Basic data exploration completed.
+2025-01-03 22:09:53,835 - INFO - Sales distribution plotted successfully.
+2025-01-03 22:09:56,815 - INFO - Sales by Store Type plotted successfully.
+2025-01-03 22:09:57,950 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 22:09:58,805 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 22:09:59,751 - INFO - Sales by Promo plotted successfully.
+2025-01-03 22:10:02,120 - INFO - Correlation heatmap generated successfully.
+2025-01-03 22:10:02,835 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 22:10:03,373 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-03 22:10:04,045 - INFO - Sales by Day of Week plotted successfully.
