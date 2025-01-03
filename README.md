@@ -81,19 +81,6 @@ For traceability and reproducibility, a logging system was implemented using Pyt
 - Data cleaning processes
 - Summary of EDA findings
 
----
-
-## Deliverables
-
-1. **Jupyter Notebook**: A comprehensive notebook containing:
-   - Data cleaning steps
-   - Exploratory visualizations
-   - Statistical summaries
-   - Answers to key questions
-
-2. **Slide Deck**:
-   - A 10-20 slide presentation summarizing key findings.
-   - Focus on actionable insights for the finance team.
 
 ---
 
